@@ -12,6 +12,7 @@ sudo apt install stow
 execute stow commands from this repo:
 ```bash
 cd .rizfast
-stow nvim
-stow zsh
+stow -t ~ nvim
+stow -t ~ zsh
 ```
+note: `-t` option specificies the target directory from which symlinks will be created. By default the target is the parent directory 
