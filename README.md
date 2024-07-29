@@ -1,6 +1,5 @@
 # .rizfast
-Ricing at the speed of light
-
+🍚💨
 
 ## Install stow
 ```bash
