@@ -7,6 +7,8 @@ require 'keymaps'
 -- [[ Basic Autocommands ]]
 require 'autocommands'
 
+require 'floaterminal'
+
 -- [[ Install `lazy.nvim` plugin manager ]]
 require 'lazy-bootstap'
 
