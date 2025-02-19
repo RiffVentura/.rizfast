@@ -22,9 +22,13 @@ vim.keymap.set('n', '<C-Up>', '<C-w><C-k>', { desc = 'Move focus to the upper wi
 
 vim.keymap.set('n', '\\', '<CMD>Oil<CR>', { desc = 'Open parent directory' })
 
+-- Zen mode
 vim.keymap.set('n', '<leader>zf', '<CMD>Focus<CR>', { desc = 'Focus mode' })
 vim.keymap.set('n', '<leader>zz', '<CMD>Zen<CR>', { desc = 'Zen mode' })
 vim.keymap.set('v', '<leader>zn', '<CMD>Narrow<CR>', { desc = 'Narrow mode' })
+
+vim.keymap.set('n', '<leader>k', '<CMD>Telescope colorscheme<CR>', { desc = 'Browse kolorscheme' })
+
 -- Move text up down
 vim.keymap.set('v', '<S-Down>', ":m '>+1<CR>gv=gv")
 vim.keymap.set('v', '<S-Up>', ":m '<-2<CR>gv=gv")
