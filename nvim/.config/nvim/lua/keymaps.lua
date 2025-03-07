@@ -52,4 +52,6 @@ vim.keymap.set({ 'n', 'v' }, '<leader>d', [["_d]])
 
 vim.keymap.set('n', 'Q', '<nop>')
 
+vim.keymap.set('n', '<leader>fs', '<cmd>silent! wa<cr>', { desc = '[F]ile [S]ave all' })
+vim.keymap.set('n', '<leader>fq', '<cmd>q<cr>', { desc = '[F]ile [Q]uit' })
 -- vim: ts=2 sts=2 sw=2 et
